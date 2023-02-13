@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Unit Converter</title>
+		<link rel="stylesheet" href="style.css" />
+		<script defer src="script.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+        <div class="interface flex-col">
+            <i id="toggle-dark" class="fa-solid fa-moon"></i>
+            <!-- <i class="fa-solid fa-sun"></i> -->
+            <div class="head flex-col">
+                <h1>Metric/Imperial Unit Conversion</h1>
+                <input type="text" name="number box" id="num-box">
+                <button id="convert">Convert</button>
+            </div>
+            <div class="body flex-col">
+                <div class="box flex-col">
+                    <h3>Length (Meter/Feet)</h3>
+                    <div class="flex">
+                        <p class="text" id="meter-feet">1 meter = 3.281 feet</p>
+                        <div class="line"></div>
+                        <p class="text" id="feet-meter">1 feet = 0.3048 meter</p>
+                    </div>
+                </div>
+                <div class="box flex-col">
+                    <h3>Volume (Liters/Gallons)</h3>
+                    <div class="flex">
+                        <p class="text" id="liters-gallon">1 liter = 0.264 gallon</p>
+                        <div class="line"></div>
+                        <p class="text" id="gallon-liters">1 gallon = 4.546 liter</p>
+                    </div>
+                </div>
+                <div class="box flex-col">
+                    <h3>Mass (Kilograms/Pounds)</h3>
+                    <div class="flex">
+                        <p class="text" id="kilo-pound">1 kilogram = 2.204 pound</p>
+                        <div class="line"></div>
+                        <p class="text" id="pound-kilo">1 pound = 0.4535 kilogram</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://kit.fontawesome.com/53af5e9bb6.js" crossorigin="anonymous"></script>
+    </body>
+</html>
