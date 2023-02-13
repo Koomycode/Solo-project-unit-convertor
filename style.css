@@ -127,3 +127,52 @@ h3 {
 	font-size: 14px;
 	transition: 0.8s;
 }
+
+@media (max-width: 450px) {
+	.head {
+		width: 400px;
+		height: 205px;
+	}
+    
+    .fa-solid {
+        top: 90px;
+        left: unset;
+        right: 50px;
+    }
+
+	.body {
+		width: 400px;
+		height: 400px;
+	}
+
+	.box {
+		width: 370px;
+		height: 110px;
+	}
+
+	h1 {
+		font-size: 22px;
+	}
+
+	#num-box {
+		width: 125px;
+		height: 63px;
+		font-size: 40px;
+	}
+
+	#convert {
+		width: 90px;
+		height: 42px;
+		font-weight: 600;
+		font-size: 14px;
+	}
+
+	h3 {
+		font-weight: 700;
+		font-size: 17px;
+	}
+
+	.text {
+		font-size: 12px;
+	}
+}
